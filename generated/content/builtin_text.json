@@ -1,0 +1,231 @@
+[
+  {
+    "id": "builtin_text-pSsHWg",
+    "formData": {
+      "text": "👋, {{state.$r}}!",
+      "variations": [
+        "Hello, {{state.$r}}!",
+        "Welcome to Botpress, {{state.$r}}!"
+      ],
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:57:36.026Z"
+  },
+  {
+    "id": "builtin_text-AY5SSW",
+    "formData": {
+      "text": "This is the first time we speak 🤖",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T00:59:51.118Z"
+  },
+  {
+    "id": "builtin_text-bFsOmf",
+    "formData": {
+      "text": "We already spoke {{state.$r}} times!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:00:37.593Z"
+  },
+  {
+    "id": "builtin_text-TtzrCV",
+    "formData": {
+      "text": "Wow happy birthday ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:06:41.963Z"
+  },
+  {
+    "id": "builtin_text-z0J9qh",
+    "formData": {
+      "text": "May I know your name please?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:08:41.241Z"
+  },
+  {
+    "id": "builtin_text-X069Le",
+    "formData": {
+      "text": "Try saying something like \"forget my name\"!",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:16:53.227Z"
+  },
+  {
+    "id": "builtin_text-kKQ8C3",
+    "formData": {
+      "text": "(To see how this works, double-click anywhere on the flow and go to the \"Transitions\" panel)",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-05-14T01:17:55.317Z"
+  },
+  {
+    "id": "builtin_text-dk1ZAy",
+    "formData": {
+      "text": "Hello Today",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T14:58:23.716Z"
+  },
+  {
+    "id": "builtin_text-S13Za6",
+    "formData": {
+      "text": "I like oranges too",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T15:07:42.049Z"
+  },
+  {
+    "id": "builtin_text-yvaNYW",
+    "formData": {
+      "text": "I like oranges too",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T15:08:07.498Z"
+  },
+  {
+    "id": "builtin_text-ChFiGP",
+    "formData": {
+      "text": "Do you like oranges of apples",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T15:11:01.168Z"
+  },
+  {
+    "id": "builtin_text-x~tYZ7",
+    "formData": {
+      "text": "Hey I like oranges too ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T15:17:20.426Z"
+  },
+  {
+    "id": "builtin_text-DpSpia",
+    "formData": {
+      "text": "You like apples, how about bananas",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T15:17:49.621Z"
+  },
+  {
+    "id": "builtin_text-KiZHRW",
+    "formData": {
+      "text": "Hi",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T15:56:43.978Z"
+  },
+  {
+    "id": "builtin_text-OSUy4i",
+    "formData": {
+      "text": "Hi {{state.$r}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-09T23:45:21.657Z"
+  },
+  {
+    "id": "builtin_text-uNcMLY",
+    "formData": {
+      "text": "Hi {{state.name}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-10T00:01:35.616Z"
+  },
+  {
+    "id": "builtin_text-3R73Fn",
+    "formData": {
+      "text": "English it is",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-11T01:28:23.136Z"
+  },
+  {
+    "id": "builtin_text-JyFs4E",
+    "formData": {
+      "text": "C'est la français ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-11T01:28:42.947Z"
+  },
+  {
+    "id": "builtin_text-iCPYlU",
+    "formData": {
+      "text": "My I know your name?",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-23T14:07:19.604Z"
+  },
+  {
+    "id": "builtin_text-tCizZy",
+    "formData": {
+      "text": "Hello {{state.username}}",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-23T14:10:58.604Z"
+  },
+  {
+    "id": "builtin_text-jL4r1G",
+    "formData": {
+      "text": "How old are you???",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-23T14:31:05.328Z"
+  },
+  {
+    "id": "builtin_text-Q8VW7d",
+    "formData": {
+      "text": "How old are you? ",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-23T14:47:42.310Z"
+  },
+  {
+    "id": "builtin_text-ttnJ4a",
+    "formData": {
+      "text": "Sorry, you didn't enter a number, please enter your age",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-25T14:05:29.286Z"
+  },
+  {
+    "id": "builtin_text-j89E9z",
+    "formData": {
+      "text": "Cool. {{state.age}} is the perfect age to start taking care of your health",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-25T14:08:41.709Z"
+  },
+  {
+    "id": "builtin_text-q9S0CF",
+    "formData": {
+      "text": "Didn't work",
+      "typing": true
+    },
+    "createdBy": "admin",
+    "createdOn": "2018-07-26T15:05:49.746Z"
+  }
+]

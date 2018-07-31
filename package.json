@@ -1,0 +1,28 @@
+{
+  "name": "emojihealth",
+  "version": "1.0.0",
+  "description": "emoji health bot",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">= 6.1 < 9"
+  },
+  "dependencies": {
+    "botpress": "10.22.3",
+    "@botpress/audience": "10.22.3",
+    "@botpress/builtins": "10.22.3",
+    "@botpress/nlu": "10.22.3",
+    "@botpress/skill-choice": "10.22.3",
+    "@botpress/hitl": "10.22.3",
+    "@botpress/channel-web": "10.22.3",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "yn": "^2.0.0"
+  },
+  "scripts": {
+    "start": "botpress start",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arnav",
+  "license": "AGPL-3.0"
+}

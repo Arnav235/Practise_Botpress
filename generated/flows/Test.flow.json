@@ -1,0 +1,45 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "8a4cdb61ec",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_text-dk1ZAy"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.nlu.intent.is('birthday')",
+          "node": "node-d86e"
+        },
+        {
+          "condition": "true",
+          "node": "node-4ef4"
+        }
+      ]
+    },
+    {
+      "id": "df80a34431",
+      "name": "node-d86e",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-TtzrCV",
+        "ConsoleLog {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "4819bf96f3",
+      "name": "node-4ef4",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-q9S0CF",
+        "ConsoleLog {}"
+      ],
+      "onReceive": null
+    }
+  ]
+}

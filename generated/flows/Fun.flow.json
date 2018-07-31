@@ -1,0 +1,122 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "entry",
+  "nodes": [
+    {
+      "id": "087d1bb6a6",
+      "name": "entry",
+      "onEnter": [
+        "say #!builtin_carousel-7x~O6h",
+        "say #!builtin_single-choice-_5Cnef"
+      ],
+      "onReceive": [],
+      "next": [
+        {
+          "condition": "event.payload == 1",
+          "node": "English"
+        },
+        {
+          "condition": "event.payload == 2",
+          "node": "Age"
+        }
+      ]
+    },
+    {
+      "id": "e30b51f0a1",
+      "name": "English",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Name"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-3R73Fn",
+        "ConsoleLog {}"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "f523743e6f",
+      "name": "French",
+      "next": [
+        {
+          "condition": "true",
+          "node": "Name"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-JyFs4E"
+      ],
+      "onReceive": null
+    },
+    {
+      "id": "948d993717",
+      "name": "Name",
+      "next": [
+        {
+          "condition": "true",
+          "node": ""
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-iCPYlU"
+      ],
+      "onReceive": [
+        "setUserVariable {\"name\":\"username\",\"value\":\"{{event.text}}\",\"expiry\":\"never\"}",
+        "getUserVariable {\"name\":\"username\",\"output\":\"username\"}",
+        "say #!builtin_text-tCizZy"
+      ]
+    },
+    {
+      "id": "e977182bf1",
+      "name": "Age",
+      "next": [
+        {
+          "condition": "state.noAge == true",
+          "node": "False"
+        },
+        {
+          "condition": "state.noAge == false",
+          "node": "True"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-Q8VW7d"
+      ],
+      "onReceive": [
+        "checkNumber {}"
+      ]
+    },
+    {
+      "id": "622a5b6765",
+      "name": "False",
+      "next": [
+        {
+          "condition": "state.noAge = false",
+          "node": "True"
+        },
+        {
+          "condition": "state.noAge = true",
+          "node": "#"
+        }
+      ],
+      "onEnter": [
+        "say #!builtin_text-ttnJ4a"
+      ],
+      "onReceive": [
+        "checkNumber {}"
+      ]
+    },
+    {
+      "id": "78c2003be2",
+      "name": "True",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-j89E9z"
+      ],
+      "onReceive": null
+    }
+  ]
+}
